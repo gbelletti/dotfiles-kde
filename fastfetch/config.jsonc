@@ -1,0 +1,96 @@
+{
+  "display": {
+    "color": {
+      "keys": "#ffffff"
+    },
+    "key": {
+      "width": 14
+    },
+    "separator": "  "
+  },
+  "logo": {
+    "color": {
+      "1": "#ffffff"
+    },
+    "padding": {
+      "left": 1,
+      "top": 1
+    },
+    "source": "/home/gael/.config/fastfetch/logo.txt",
+    "type": "file"
+  },
+  "modules": [
+    {
+      "color": {
+        "at": "#666666",
+        "host": "#ff8a8a",
+        "user": "#ff8a8a"
+      },
+      "type": "title"
+    },
+    "break",
+
+    {
+      "format": "{pretty-name}",
+      "key": " ✩  OS",
+      "keyColor": "#71b7ff",
+      "type": "os"
+    },
+    {
+      "key": " 🕷  KERNEL",
+      "keyColor": "#d2a8ff",
+      "type": "kernel"
+    },
+    {
+      "key": " 🖥  PC",
+      "keyColor": "#ff8a8a",
+      "type": "host"
+    },
+    {
+      "format": "{pretty-name}",
+      "key": " 🕸  WINMAN",
+      "keyColor": "#ff8a8a",
+      "type": "wm"
+    },
+    {
+      "format": "{pretty-name}",
+      "key": " 🕱  SHELL",
+      "keyColor": "#8ddb8c",
+      "type": "shell"
+    },
+    {
+      "key": " 🖞  UPTIME",
+      "keyColor": "#d2b45f",
+      "type": "uptime"
+    },
+    {
+      "key": " 🖳  CPU",
+      "keyColor": "#d2a8ff",
+      "type": "cpu"
+    },
+    {
+      "hideType": "integrated",
+      "key": " 🖵  GPU1",
+      "keyColor": "#71b7ff",
+      "type": "gpu"
+    },
+    {
+      "hideType": "discrete",
+      "key": " 🖵  GPU2",
+      "keyColor": "#8ddb8c",
+      "type": "gpu"
+    },
+    {
+      "format": "{used} / {total}",
+      "key": " 🕹  RAM",
+      "keyColor": "#71b7ff",
+      "type": "memory"
+    },
+    {
+      "format": "{pretty-name}",
+      "key": " 🗲  PALETTE",
+      "symbol": "circle",
+      "type": "colors"
+    }
+  ]
+}
