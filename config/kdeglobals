@@ -77,16 +77,16 @@ ForegroundPositive=55,140,80
 ForegroundVisited=187,154,247
 
 [Colors:Selection]
-BackgroundAlternate=40,52,87
-BackgroundNormal=81,92,126
+BackgroundAlternate=51,70,124
+BackgroundNormal=122,162,247
 DecorationFocus=122,162,247
 DecorationHover=122,162,247
-ForegroundActive=255,255,255
-ForegroundInactive=169,177,214
-ForegroundLink=122,162,247
+ForegroundActive=26,27,38
+ForegroundInactive=86,95,137
+ForegroundLink=26,27,38
 ForegroundNegative=247,118,142
 ForegroundNeutral=209,134,54
-ForegroundNormal=255,255,255
+ForegroundNormal=26,27,38
 ForegroundPositive=55,140,80
 ForegroundVisited=187,154,247
 
@@ -133,8 +133,7 @@ ForegroundPositive=55,140,80
 ForegroundVisited=187,154,247
 
 [General]
-ColorScheme=TokyoNight
-ColorSchemeHash=a8413e0e11dda3aced15de113b5e99f60870b57d
+ColorSchemeHash=2a1f3997ade01725aeff41528d6de7347080b9a6
 
 [Icons]
 Theme=WhiteSur-purple-dark
@@ -162,6 +161,9 @@ Sort hidden files last=false
 Sort reversed=false
 Speedbar Width=148
 View Style=DetailTree
+
+[KShortcutsDialog Settings]
+Dialog Size=624,480
 
 [Locale]
 BinaryUnitDialect=2
